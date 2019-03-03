@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
+.App {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: #C33764;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D2671, #C33764);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Lato', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.Title {
+    font-size: 7.2vh;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+.Upload {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    height: 7vh;
+    background: linear-gradient(45deg, #B388EB, #8093F1);
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    cursor: pointer;
+    /*From https://codepen.io/sashatran/pen/WpbGEE */
+}
+
+.imageUrl {
+    background-color: transparent;
+    background-image: linear-gradient(to right, #ff005e 0, #ff7101 70%);
+    background-repeat: no-repeat;
+    background-position: 0 calc(100% + 3px), 0 0;
+    background-size: 100% 3px;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 3px solid #ff005e;
+    color: rgb(202, 202, 202);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    line-height: 1.5;
+    outline: 0 none;
+    padding: .25rem 0;
+    transition: border-color .2s linear;
+    width: 30vw;
+    font-size: 3vh;
+}
+
+.imageUrl:hover,
+.imageUrl:focus {
+    border-color: transparent;
+}
+
+.Note {
+    font-size: 2.5vh;
+    width: 30vw;
+    margin-top: 8vh;
+    font-weight: 300;
+}
+
+.Source {
+    position: absolute;
+    bottom: 2.7vh;
+    right: 1.5vw;
+    font-size: 2.6vh;
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+.sourceIcon {
+    height: 2.6vh;
+    position: absolute;
+    left: -25%;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 1080px) {
+    .Upload {
+        width: 80vw;
+    }
+    .imageUrl {
+        width: 90vw;
+    }
+    .Note {
+        width: 80vw;
+    }
+}
