@@ -1,6 +1,6 @@
 # Image to Excel converter
 Converts images to Excel .xlsx files with coloured cell backgrounds. Can be used for pixel arts etc. 
-Demo available [here](http://lopogo59.github.io/image_to_excel_converter)
+Demo available [here](http://iruszpel.github.io/image_to_excel_converter)
 ![main page](converted.png)
 
  
