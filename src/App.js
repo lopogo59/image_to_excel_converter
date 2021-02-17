@@ -205,7 +205,7 @@ class App extends Component {
         {this.state.status &&
           <p>{this.state.status}</p>
         }
-        <a href="https://github.com/lopogo59/image_to_excel_converter" className="Source"><img className="sourceIcon" src={GithubIcon}/>Source code</a>
+        <a href="https://github.com/iruszpel/image_to_excel_converter" className="Source"><img className="sourceIcon" src={GithubIcon}/>Source code</a>
       </div>
     );
   }
